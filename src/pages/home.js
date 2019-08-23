@@ -12,7 +12,7 @@ class HomePage extends React.Component{
         return(
             
             <div>
-
+                <p> home page placeholder</p>
             </div>
         )
     }

@@ -1,5 +1,9 @@
 import React from 'react'
-import {Menu } from 'semantic-ui-react'
+import {Menu, Container } from 'semantic-ui-react'
+import {Home} from '../pages/home'
+import {FoodMenu} from '../pages/menu'
+import {About} from '../pages/menu'
+import {Contact} from '../pages/menu'
 
 
 class NavBar extends React.Component{
@@ -11,13 +15,14 @@ class NavBar extends React.Component{
     render(){
         const { activeItem } = this.state
         return(
-            <div>
+                <div>
+        
                 <Menu>
                     <Menu.Item name="home" active={activeItem === 'home'} onClick={this.handleItemClick} > 
                         Home
                     </Menu.Item>
 
-                    <Menu.Item name="menu" active={activeItem === 'menu'} onClick={this.handleItemClick}>
+                    <Menu.Item name="foodmenu" active={activeItem === 'foodmenu'} onClick={this.handleItemClick}>
                         Menu
                     </Menu.Item>
                     
@@ -29,7 +34,13 @@ class NavBar extends React.Component{
                         Contact Us
                     </Menu.Item>
                 </Menu>
-            </div>
+                <Container>
+                    {{this.state.activeItem === home ? <Home/> : null}}
+
+                </Container>
+
+            
+                </div>
         )
     }
 }
