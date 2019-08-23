@@ -1,13 +1,13 @@
 import React from 'react'
 import {Menu, Container } from 'semantic-ui-react'
-import {Home} from '../pages/home'
-import {FoodMenu} from '../pages/menu'
-import {About} from '../pages/menu'
-import {Contact} from '../pages/menu'
+import HomePage from '../pages/home'
+import FoodMenu from '../pages/menu'
+import About from '../pages/about'
+import Contact from '../pages/contact'
 
 
 class NavBar extends React.Component{
-    state = {}
+    state = { activeItem: "home"}
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
     
@@ -35,7 +35,11 @@ class NavBar extends React.Component{
                     </Menu.Item>
                 </Menu>
                 <Container>
-                    {{this.state.activeItem === home ? <Home/> : null}}
+                    {this.state.activeItem === "home" ? <HomePage/> : null}
+                    {this.state.activeItem === "foodmenu" ? <FoodMenu/> : null}
+                    {this.state.activeItem === "about" ? <About/> : null}
+                    {this.state.activeItem === "contact" ? <Contact/> : null}
+
 
                 </Container>
 
