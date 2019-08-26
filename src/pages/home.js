@@ -1,6 +1,7 @@
 import React from 'react'
 import {Card, Image, Icon} from 'semantic-ui-react'
 
+
 // * home 
 // 	* Andaman logo and info. 
 // 	* some pictures.  - scrolling image
@@ -12,7 +13,8 @@ class HomePage extends React.Component{
         return(
             
             <div>
-                <p> home page placeholder</p>
+                <Image src='https://imgur.com/CKY3fQD.jpg' fluid />
+           
             </div>
         )
     }
