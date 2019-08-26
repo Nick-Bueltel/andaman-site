@@ -33,6 +33,9 @@ class NavBar extends React.Component{
                     <Menu.Item name="contact" active={activeItem === 'contact'} onClick={this.handleItemClick}>
                         Contact Us
                     </Menu.Item>
+                    <Menu.Item href="http://www.toasttab.com/andaman-southern-thai-cuisine">
+                        Order Online
+                    </Menu.Item>
                 </Menu>
                 <Container>
                     {this.state.activeItem === "home" ? <HomePage/> : null}
