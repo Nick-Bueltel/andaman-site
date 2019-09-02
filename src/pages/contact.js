@@ -4,7 +4,37 @@ class Contact extends React.Component{
     render(){
         return(
             <div>
-                <p> contact page placeholder </p>
+                <iframe width="600" height="450" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJgXdRPGZlRIYR-NfPzEKhV1E&key=AIzaSyDRS350MGz8F86-kqEdHnR7W6JJz3kVWm4" allowFullScreen></iframe>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+
             </div>
         )
     }

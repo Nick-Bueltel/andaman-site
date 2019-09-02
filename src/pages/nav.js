@@ -22,9 +22,7 @@ class NavBar extends React.Component{
                         Home
                     </Menu.Item>
 
-                    <Menu.Item name="foodmenu" active={activeItem === 'foodmenu'} onClick={this.handleItemClick}>
-                        Menu
-                    </Menu.Item>
+                    
                     
                     <Menu.Item name="about" active={activeItem === 'about'} onClick={this.handleItemClick}>
                         About
@@ -39,7 +37,6 @@ class NavBar extends React.Component{
                 </Menu>
                 <Container>
                     {this.state.activeItem === "home" ? <HomePage/> : null}
-                    {this.state.activeItem === "foodmenu" ? <FoodMenu/> : null}
                     {this.state.activeItem === "about" ? <About/> : null}
                     {this.state.activeItem === "contact" ? <Contact/> : null}
 

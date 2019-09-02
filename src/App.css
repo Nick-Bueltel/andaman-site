@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #29297D;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,6 +21,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.monkBG{
+  
+
+}
+
+.centered{
+  text-align : center; 
+
 }
 
 @keyframes App-logo-spin {
