@@ -23,7 +23,7 @@ class HomePage extends React.Component{
 
             <Grid columns={3} divided className="centered">
                 <Grid.Row>
-                    <Grid.Column  >
+                    <Grid.Column size="large" >
                         <Image src='https://i.imgur.com/QUTdWqG.jpg' circular fluid href="http://www.toasttab.com/andaman-southern-thai-cuisine" />
                     </Grid.Column>
                     
