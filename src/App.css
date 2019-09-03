@@ -9,22 +9,38 @@
 }
 
 .App-header {
-  background-color: #29297D;
+  background-color: #FFFFFF;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #29297D;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.monkBG{
-  
+
+
+.ui.menu{
+  background-color: #29297D !important ;
+  ; 
+}
+
+.item{
+  color: white !important; 
+}
+
+a.active.item{
+  color: #FFBF46 !important;
+
+
+}
+.banner{
+  background-color: #29297D !important;
 
 }
 

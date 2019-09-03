@@ -29,7 +29,7 @@ class NavBar extends React.Component{
                     </Menu.Item>
                     
                     <Menu.Item name="contact" active={activeItem === 'contact'} onClick={this.handleItemClick}>
-                        Contact Us
+                        Directions
                     </Menu.Item>
                     <Menu.Item href="http://www.toasttab.com/andaman-southern-thai-cuisine">
                         Order Online

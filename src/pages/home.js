@@ -13,15 +13,18 @@ class HomePage extends React.Component{
     render(){
         return(
             
-            <div className="monkBG">
+            <div>
+                <div className="banner">
+
                 <Image src="https://i.imgur.com/rqNMWaQ.jpg" className="centered" size="big" />
                     <Divider hidden/>
-                <Image src="https://i.imgur.com/w5s8ITk.jpg" className="centered" rounded size="big"/>
-                    <Divider hidden/>
+                </div>
+                {/* <Image src="https://i.imgur.com/w5s8ITk.jpg" className="centered" rounded size="big"/>
+                    <Divider hidden/> */}
 
                 
 
-            <Grid columns={3} divided className="centered">
+            <Grid columns={3} className="centered">
                 <Grid.Row>
                     <Grid.Column size="large" >
                         <Image src='https://i.imgur.com/QUTdWqG.jpg' circular fluid href="http://www.toasttab.com/andaman-southern-thai-cuisine" />
@@ -51,7 +54,25 @@ class HomePage extends React.Component{
                 </Grid.Row>
             </Grid>
             
-
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         
             </div>
         )
