@@ -10,28 +10,12 @@
     "react-scripts": "3.1.1",
     "semantic-ui-react": "^0.87.3"
   },
-  "scripts": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> parent of 84b5681... Updates
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+  "scripts":{
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-<<<<<<< HEAD
-=======
-=======
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
->>>>>>> parent of d24d5d2... Updates
->>>>>>> parent of 84b5681... Updates
+
   },
   "eslintConfig": {
     "extends": "react-app"
