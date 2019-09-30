@@ -12,7 +12,7 @@ class About extends React.Component{
                     <Image src=""/>
                     <Image src=""/>
                 </Image.Group>
-                <p>put all of your About text here</p>
+                <p>Andaman Southern Thai Cuisine is a family owned and ran restaurant. My wife and 3 boys are the back bone of the restaurant, all of them are from a small village in Southern Thailand called Bang Khan which is about 1hr drive from Krabi. All of our Chefs specials are directly from their house hold in Thailand,  and this is what makes us a Southern Thai Cuisine. We take pride in our food and will customize to your taste. So come on down and give your taste buds a treat.</p>
 
                 <br/>
                 <br/>
