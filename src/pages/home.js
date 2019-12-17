@@ -21,6 +21,11 @@ class HomePage extends React.Component{
                 </div>
                 {/* <Image src="https://i.imgur.com/w5s8ITk.jpg" className="centered" rounded size="big"/>
                     <Divider hidden/> */}
+                <div>
+                    <h1 href="https://www.toasttab.com/andaman-southern-thai-cuisine/giftcards">You can send E-Giftcards here</h1>
+                    <p>E-Giftcards are not physical cards.</p>
+                    <p>They can be sent by email or by phone(text), and can be sent at a date of your choice.</p>
+                </div>
 
                 
 
