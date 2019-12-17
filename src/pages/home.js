@@ -26,6 +26,8 @@ class HomePage extends React.Component{
                     <h4>E-Giftcards are not physical cards.</h4>
                     <h4>They can be sent by email or by phone(text), and can be sent at a date of your choice.</h4>
                 </div>
+        
+        <Divider hidden />
 
                 
 
